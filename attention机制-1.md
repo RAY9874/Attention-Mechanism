@@ -6,7 +6,7 @@
 
 Learning Phrase Representations using RNN Encoder–Decoder  for Statistical Machine Translation 论文中使用两个RNN分别作为encoder和decoder。
 
-![论文encoder-decoder原图](img\e-d.PNG)
+![论文encoder-decoder原图](img/e-d.PNG)
 
 所谓encoder，即将输入句子‘我是小明’，输入至rnn中，将每一步的隐层输出求和，记为c, c即为编好的‘码’，附论文原文：
 
