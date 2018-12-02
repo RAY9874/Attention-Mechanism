@@ -20,7 +20,7 @@ decoder部分，通过上次隐层输出、本次输入以及码c，共同求解
 > $$
 >
 大连理工大学信息检索研究室http://ir.dlut.edu.cn 对编码c的插图非常容易理解
- ![普通的c](img/traditonal-c.PNG)
+ ![普通的c](img/traditonal-c.jpg)
 
 ### attention机制
 
@@ -51,7 +51,7 @@ attention机制在原有encoder-decoder基础上进行了改进，与传统encod
 - 由此可计算下一个隐层输出，与传统方法一样$s_t=f(s_{t-1},y_{t-1},c_t)$
 
 大连理工大学信息检索研究室http://ir.dlut.edu.cn 对编码c的插图非常容易理解
- ![attetion里的c](img/att-c.PNG)
+ ![attetion里的c](img/att-c.jpg)
 
 附论文attetion 权值矩阵实验结果
 
